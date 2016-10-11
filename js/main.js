@@ -42,6 +42,7 @@ function addVenuesToMap(venues) {
         cluster: true,
         clusterMaxZoom: 14, // Max zoom to cluster points on
         clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
+        
     });
 
     // Use the earthquakes source to create five layers:
@@ -57,7 +58,9 @@ function addVenuesToMap(venues) {
         "text-field": "{name}",
         "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
         "text-offset": [0, 0.6],
-        "text-anchor": "top"
+        "text-anchor": "top",
+        "marker-color": "#D1440A",
+        "marker-size": 'large'
       }
     });
 
@@ -95,7 +98,7 @@ function addVenuesToMap(venues) {
           "text-field": "{point_count}",
           "text-font": [
             "DIN Offc Pro Medium",
-            "Arial Unicode MS Bold"
+            "Arial Unicode MS Bold",
           ],
           "text-size": 12
         }

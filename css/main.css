@@ -1,1 +1,42 @@
+nav{
+padding-top: 15px;
+background-color: #C7C667;
+}
+
+ul{
+text-decoration-style: none;
+}
+
+li{
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.push-left{
+  width: 50%;
+  float: left;
+  
+}
+
+.push-right{
+  width: 25%;
+  float: right;
+  
+}
+.nav-test{
+  
+  height: 60px;
+}
+h1{
+
+}
+.leaflet-popup-content{
+    border: 2px solid red;
+    border-radius: 5%;
+}
+#brand-font{
+  font-family: 'Ruslan Display', cursive;
+  font-size: 30px;
+}
+
 
