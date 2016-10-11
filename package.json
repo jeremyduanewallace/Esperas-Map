@@ -1,0 +1,24 @@
+{
+  "name": "Esperas-Map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyduanewallace/Esperas-Map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremyduanewallace/Esperas-Map/issues"
+  },
+  "homepage": "https://github.com/jeremyduanewallace/Esperas-Map#readme",
+  "dependencies": {
+    "babel": "^6.5.2"
+  }
+}
