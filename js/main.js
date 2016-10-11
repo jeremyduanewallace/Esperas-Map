@@ -10,8 +10,8 @@ let pois =[];
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v9',
-  center: [-98.5795, 39.8282],
-  minZoom: 3
+  center: [-122.332, 47.615],
+  minZoom: 11
 });
 
 // Setup Esperas authorization header.
@@ -98,7 +98,7 @@ function addVenuesToMap(venues) {
           "text-field": "{point_count}",
           "text-font": [
             "DIN Offc Pro Medium",
-            "Arial Unicode MS Bold",
+            "Arial Unicode MS Bold"
           ],
           "text-size": 12
         }
