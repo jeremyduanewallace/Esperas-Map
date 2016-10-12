@@ -1,4 +1,5 @@
 alert("hello");
+  
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2hmaXNoYnVybiIsImEiOiJjaWs2dHB0cXQwMHdqaHJtMjJ6ejVra2R0In0.Gfuf4QMy6U0MfG1fDddZvQ';
 
@@ -42,7 +43,6 @@ function addVenuesToMap(venues) {
         cluster: true,
         clusterMaxZoom: 14, // Max zoom to cluster points on
         clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
-        
     });
 
     // Use the earthquakes source to create five layers:
@@ -58,9 +58,7 @@ function addVenuesToMap(venues) {
         "text-field": "{name}",
         "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
         "text-offset": [0, 0.6],
-        "text-anchor": "top",
-        "marker-color": "#D1440A",
-        "marker-size": 'large'
+        "text-anchor": "top"
       }
     });
 
