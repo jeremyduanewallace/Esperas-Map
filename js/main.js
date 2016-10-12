@@ -23,7 +23,7 @@ loadVenues();
 
 // Load Regions from Esperas.
 function loadVenues() {
-  fetch('http://poi.esperas.org/api/venues?size=200&status=published&format=geojson', {
+  fetch('https://poi.esperas.org/api/venues?size=200&status=published&format=geojson', {
     headers: esperasHeaders,
   })
   .then((response) => response.json())
